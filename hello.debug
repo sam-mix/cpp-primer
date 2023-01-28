@@ -1,0 +1,12 @@
+gcc -o hellog.exe hello.c -g
+
+gdb -q hellog.exe
+
+l 0
+b 6
+r
+p n
+b 10
+c
+p n
+q
